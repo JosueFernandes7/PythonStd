@@ -1,3 +1,5 @@
+
+
 #classes
 class Pessoa:
     def __init__(self,nome,idade):
@@ -6,4 +8,6 @@ class Pessoa:
 
     def apresentar(self):
         print(f"Olá, meu nome é {self.nome} e tenho {self.idade} anos")
+
+
 

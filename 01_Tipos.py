@@ -18,6 +18,6 @@ falso = False
 print(verdade and falso)
 
 # String
-mensagem = 'Olá, mundo!'
-print(mensagem.upper())
+message = 'Olá, mundo!'
+print(message.upper())
 
