@@ -1,6 +1,6 @@
 
 
-# Tipos em Python
+# Tipos primitivos em Python
 
 # inteiros
 x = 10
@@ -17,7 +17,10 @@ verdade = True
 falso = False
 print(verdade and falso)
 
-# String
+# String - str
 message = 'Olá, mundo!'
 print(message.upper())
 
+# None
+
+texto = None
