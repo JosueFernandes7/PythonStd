@@ -51,3 +51,28 @@ print(J,T) # [3000, 2, 3, 4, 5] [1, 2, 3, 4, 5]
 
 L = T[:-2]
 print(L) # 1,2,3
+
+# adicionar item
+
+lista = [5,10,2,-3]
+lista.append(4) # [5,10,2,-3,4]
+print(lista)
+
+# adicao de listas
+
+l = [20]
+j = [1,4,9,12,23]
+k = l + j
+print(k) # [20, 1, 4, 9, 12, 23]
+print(j + l )# [1, 4, 9, 12, 23, 20]
+
+# Adição de elementos e listas
+L = ["a"]
+L.append("b")
+# L = ["a","b"]
+print(L)
+
+# com listas se usa o extend, ou o +=
+
+L.extend(["c","d"])
+print(L)

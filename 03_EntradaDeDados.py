@@ -21,3 +21,7 @@ print(soma)
 valor = float(input("Valor em metros: "))
 valorEmMilimetros = valor * 1000
 print("\nValor em milímetros = %.2f" % valorEmMilimetros)
+
+# uma outra forma
+
+entrada = input().split()
