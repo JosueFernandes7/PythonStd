@@ -28,4 +28,4 @@ for i in range(2):
     forward(40)
     left(112)
 end_fill()
-time.sleep(10)
+time.sleep(4)
