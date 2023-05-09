@@ -1,4 +1,4 @@
-from Pessoa import Pessoa
+from Testes.Pessoa import Pessoa
 from datetime import date
 #datas
 pessoa1 = Pessoa("Joao", 23)
