@@ -76,3 +76,16 @@ print(L)
 
 L.extend(["c","d"])
 print(L)
+
+# Remocao de elementos da lista
+
+# – Remoção de elementos
+L = ["a","b","c"]
+del L[1] # remove b
+print(L)
+
+# – Remoção de fatias
+
+L = list(range(101))
+del L[1:99]
+print(L) # [0,99,100]
